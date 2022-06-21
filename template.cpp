@@ -45,31 +45,7 @@ ostream &operator<<(ostream &ostream, const map<T, T2> &mp)
 
 bool solve()
 {
-    lli n;
-    cin >> n;
-    vec<lli> v(n);
-    cin >> v;
-
-    lli prefix_val = v[0], suffix_removed = 0, ans = 0;
-
-    for (lli i = 1; i < n; i++)
-    {
-        v[i] -= suffix_removed;
-
-        if (v[i] <= prefix_val)
-        {
-            ans += prefix_val - v[i];
-            prefix_val = v[i];
-        }
-        else
-        {
-            suffix_removed += v[i] - prefix_val;
-            ans += v[i] - prefix_val;
-        }
-    }
-
-    ans += abs(prefix_val);
-    cout << ans << ed;
+    
 
     return true;
 }
@@ -90,7 +66,7 @@ int32_t main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    test();
+    // test();
 
     return 0;
 }
