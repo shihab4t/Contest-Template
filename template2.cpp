@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ed '\n';
-#define gp ' ';
+#define ed '\n'
+#define gp ' '
 
 int main()
 {
@@ -10,4 +10,6 @@ int main()
     cin.tie(NULL);
 
     
+
+    return 0;
 }
