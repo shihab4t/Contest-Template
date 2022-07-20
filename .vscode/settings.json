@@ -1,5 +1,5 @@
 {
-  "cph.general.defaultLanguageTemplateFileLocation": "template.cpp",
+  "cph.general.defaultLanguageTemplateFileLocation": "template2.cpp",
   "files.associations": {
     "iostream": "cpp"
   }

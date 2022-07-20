@@ -6,6 +6,7 @@ using namespace std;
 #define lli long long int
 #define vec vector
 #define str string
+#define all(x) x.begin(), x.end()
 
 bool solve()
 {

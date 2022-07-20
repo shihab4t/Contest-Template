@@ -39,35 +39,31 @@ ostream &operator<<(ostream &ostream, const map<T, T2> &mp)
 #define ed '\n'
 #define gp ' '
 #define lli long long int
-#define str string
 #define vec vector
+#define str string
 #define all(x) x.begin(), x.end()
 
 bool solve()
 {
-    
 
     return true;
 }
 
-bool test()
-{
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        solve();
-    }
-    return true;
-}
-
-int32_t main()
+int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    // test();
+    // int t;
+    // cin >> t;
+    // while (t--)
+    // {
+    //     solve();
+    // }
+
+    // solve();
 
     return 0;
 }
-// Shihab Mahamud (github.com/shihab4t)
+// github.com/shihab4t (Shihab Mahamud)
+// 
