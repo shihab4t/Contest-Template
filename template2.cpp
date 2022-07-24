@@ -10,11 +10,11 @@ using namespace std;
 
 bool solve()
 {
-
+    
     return true;
 }
 
-int main()
+int32_t main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
