@@ -75,7 +75,7 @@ int32_t main()
 
     int t, ti;
     cin >> t;
-    for (ti = 0; ti <= t; ti++)
+    for (ti = 0; ti < t; ti++)
     {
         solve(ti);
     }
