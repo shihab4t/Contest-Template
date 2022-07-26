@@ -58,13 +58,14 @@ vector<int> random(int amount, int low, int high)
 #define str string
 #define all(x) x.begin(), x.end()
 
-bool solve()
-{
+const int mod = 1e9 + 7;
 
+bool solve(int ti = 0)
+{
     return true;
 }
 
-int main()
+int32_t main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -72,12 +73,12 @@ int main()
     // freopen("input", "r", stdin);
     // freopen("output", "w", stdout);
 
-    // int t;
-    // cin >> t;
-    // while (t--)
-    // {
-    //     solve();
-    // }
+    int t, ti;
+    cin >> t;
+    for (ti = 0; ti <= t; ti++)
+    {
+        solve(ti);
+    }
 
     // solve();
 
