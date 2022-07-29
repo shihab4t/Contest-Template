@@ -53,17 +53,13 @@ vector<int> random(int amount, int low, int high)
 
 #define ed '\n'
 #define gp ' '
+#define lli long long int
 #define vec vector
+#define str string
 #define all(x) x.begin(), x.end()
 
-using i32 = int;
-using i64 = long long int;
-using f32 = float;
-using f64 = double;
-using str = string;
-
-const i32 mod = 1e9 + 7;
-const i32 inf = 1e9;
+const int mod = 1e9 + 7;
+const int inf = 1e9;
 
 bool solve(int ti = 0)
 {
